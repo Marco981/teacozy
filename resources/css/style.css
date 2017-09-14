@@ -13,6 +13,7 @@ body {
 
 h2,h4 {
 	margin: 5px;
+	font-weight: bolder;
 }
 #header {
 	height: 69px;
@@ -67,6 +68,7 @@ a {
 #month {
 	width:1000px;
 	margin: 0 auto;
+	padding-top: 80px;
 }
 
 .pictures {
@@ -80,8 +82,9 @@ a {
 	justify-content: center;
 }
 
-#list h4 {
+#list h4, #month h2, #month h4 {
 	margin-top: 10px;
+	padding-bottom: 20px
 }
 
 .item {
@@ -109,7 +112,7 @@ a {
 	margin: 0 20px;
 }
 
-.col h4 {
+.col h4, .col h3 {
 	margin: 30px;
 }
 
